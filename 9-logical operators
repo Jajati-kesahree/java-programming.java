@@ -1,0 +1,18 @@
+// 9.	Write a program to demonstrate the use of logical operators (&&, ||, !). Use boolean variables to show their behaviour.
+public class LogicalOperatorsDemo {
+    public static void main(String[] args) {
+        // Declare boolean variables
+        boolean a = true;
+        boolean b = false;
+
+        // Demonstrate logical AND (&&)
+        System.out.println("a && b = " + (a && b)); // false
+
+        // Demonstrate logical OR (||)
+        System.out.println("a || b = " + (a || b)); // true
+
+        // Demonstrate logical NOT (!)
+        System.out.println("!a = " + (!a));         // false
+        System.out.println("!b = " + (!b));         // true
+    }
+}
